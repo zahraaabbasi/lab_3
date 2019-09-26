@@ -15,5 +15,4 @@ grep -c -E ".@." "regex_practice.txt"
 echo "303 Phone Numbers: "
 grep -c -E "303-[0-9]{3}-[0-9](4)" "regex_practice.txt"
 echo "geocities Email List: "
-grep -c -E "@geocities.com" "regex_practice.txt" >> email_results.txt
-
+grep -E "@geocities.com" "regex_practice.txt" >> email_results.txt
